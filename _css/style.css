@@ -37,6 +37,6 @@ nav{
 	position: relative;
 	height: 500px;
 	overflow: hidden;
-	background: url(bieren/Overzicht.jpg) no-repeat center;
+	background: url(content/bieren/Overzicht.jpg) no-repeat center;
 	background-size: cover;
 }
