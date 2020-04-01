@@ -53,10 +53,6 @@ nav{
 }
 
 .container .text-container{
-	position: absolute;
-	top: 50%;
-	left: 80%;
-	transform: translate(-30%, -50%);
 	overflow: hidden;
 	text-align: left;
 }
