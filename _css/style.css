@@ -28,6 +28,10 @@ nav{
 	width: 35%;
 }
 
+.nav-links li{
+	list-style: none;
+}
+
 .nav-links a{
 	text-decoration: none;
 }
