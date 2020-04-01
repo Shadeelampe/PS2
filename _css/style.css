@@ -16,3 +16,14 @@ nav{
 	min-height: 8vh;
 	background-color: #000000;
 }
+
+.logo{
+	color: white;
+}
+
+.nav-links{
+	display: flex;
+	background-color: lightblue;
+	justify-content: space-around;
+	width: 35%;
+}
