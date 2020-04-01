@@ -60,7 +60,6 @@ nav{
 }
 
 .container .text-container{
-	position: absolute;
 	max-width: 550px;
 	height: 400px;
 	overflow: hidden;
@@ -94,7 +93,38 @@ a:hover{
 	text-decoration: underline;
 }
 
-/* Landing Page: Nieuwsbericht Sectie*/
+
+/* Landing Page: Nieuwsbrief Sectie*/
+.newsletter-container{
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	background-color: #0A0A0A;
+	margin-top: 40px;
+}
+
+.newsletter-container .text-newsletter{
+	padding-top: 50px;
+}
+
+.newsletter-container .text-newsletter h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.newsletter-container .text-newsletter p{
+	font-size: 17px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+
+#nieuwsbrief{
+	border: 1px solid white;
+	padding: 10px 30px;
+}
+
 
 
 
