@@ -22,7 +22,7 @@ nav{
 	display: flex;
 	text-transform: uppercase;
 	justify-content: space-around;
-	width: 30%;
+	width: 40%;
 }
 
 .nav-links li{
@@ -32,11 +32,16 @@ nav{
 .nav-links a{
 	text-decoration: none;
 	color: white;
+	font-size: 15px;
+}
+
+.nav-links a:hover{
+	text-decoration: underline;
 }
 
 .hero-image{
 	position: relative;
-	height: 500px;
+	height: 400px;
 	overflow: hidden;
 	background: url(../content/bieren/Overzicht.jpg) no-repeat center;
 	background-size: cover;
@@ -44,8 +49,8 @@ nav{
 
 .container{
 	position: absolute;
-	width: 700px;
-	height: 500px;
+	width: 600px;
+	height: 400px;
 	top: 50%;
 	left: 80%;
 	transform: translate(-50%, -50%);
@@ -54,17 +59,22 @@ nav{
 
 .container .text-container{
 	position: absolute;
-	top: 50%;
-	left: 80%;
-	max-width: 500px;
-	transform: translate(-30%, -50%);
+	max-width: 550px;
 	overflow: hidden;
+	align-items: center;
 	text-align: left;
+	padding: 50px;
 }
 
-.text-container h1{
-	font-size: 65px;
+.container .text-container h1{
+	font-size: 50px;
 	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.des{
+	display: block;
+	padding-top: 30px;
 }
 
 
