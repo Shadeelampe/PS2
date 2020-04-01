@@ -54,14 +54,14 @@ nav{
 
 .container .text-container{
 	position: absolute;
-	top: 70%;
-	left: 50%;
+	top: 50%;
+	left: 80%;
 	transform: translate(-30%, -50%);
 	overflow: hidden;
 	text-align: left;
 }
 
-.container .text-container h1{
+.text-container h1{
 	font-size: 65px;
 	text-transform: uppercase;
 }
