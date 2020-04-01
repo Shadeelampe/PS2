@@ -44,10 +44,10 @@ nav{
 
 .container{
 	position: absolute;
-	width: 700px;
+	width: 670px;
 	height: 500px;
 	top: 50%;
-	left: 80%;
+	left: 70%;
 	transform: translate(-50%, -50%);
 	background-color: black;
 }
