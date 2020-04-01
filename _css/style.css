@@ -42,6 +42,11 @@ nav{
 	background-size: cover;
 }
 
+.square{
+	width: 760px;
+	background-color: black;
+}
+
 .container{
 	position: absolute;
 	top: 50%;
@@ -50,13 +55,6 @@ nav{
 	overflow: hidden;
 	text-align: center;
 }
-
-.square{
-	height: 50%;
-	width: 50%;
-	background-color: black;
-}
-
 
 .container h1{
 	font-size: 65px;
