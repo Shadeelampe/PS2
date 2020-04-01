@@ -17,8 +17,11 @@ nav{
 	background-color: #000000;
 }
 
-.logo{
-	color: white;
+#logo{
+	height: auto;
+	width: auto;
+	max-width: 174px;
+	max-height: 150px;
 }
 
 .nav-links{
