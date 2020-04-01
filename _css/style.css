@@ -51,16 +51,19 @@ nav{
 	text-align: center;
 }
 
+.square{
+	height: 50px;
+	width: 50px;
+	background-color: black;
+}
+
+
 .container h1{
 	font-size: 65px;
 	text-transform: uppercase;
 }
 
-.container h1 span{
-	height: 50px;
-	width: 50px;
-	background-color: black;
-}
+
 
 
 
