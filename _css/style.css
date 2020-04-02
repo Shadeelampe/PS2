@@ -148,11 +148,39 @@ a:hover{
 }
 
 .container3{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
 	width: 475px;
 	height: 300px;
-	background-color: white;
+	background: white;
 	margin: 40px;
+
 }
+
+#over-ons{
+	background: url(../content/unsplash/pouringbeer.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#rondleiding{
+	background: url(../content/unsplash/beerindustry.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+.container2 .container3 .over-ons-text a{
+	font-size: 50px;
+	font-family: "Poppins-Bold";
+}
+
+.container2 .container3 .rondleiding-text a{
+	font-size: 50px;
+	font-family: "Poppins-Bold";
+}	
+
 
 
 
