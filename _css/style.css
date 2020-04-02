@@ -181,10 +181,43 @@ a:hover{
 	font-family: "Poppins-Bold";
 }	
 
+/* Landing Page: Contact Sectie*/
+.container4{
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
 
+#contact-image{
+	position: absolute;
+	width: 50%;
+	height: 400px;
+	background: url(../content/unsplash/guyb&w.jpg) no-repeat center;
+	background-size: 100% 500px;
+	left: 50%;
+}
 
+.contact-container{
+	width: 50%;
+	height: 400px;
+	background: #0A0A0A;
+}
 
+.contact-container .contacttext-container{
+	max-width: 700px;
+	height: 400px;
+	overflow: hidden;
+	align-items: center;
+	text-align: left;
+	padding: 70px;
+}
 
+.contact-container .contacttext-container h1{
+	font-family: "Poppins-Bold";
+	font-size: 50px;
+	text-transform: uppercase;
+	padding-bottom: 60px;
+}
 
 
 
