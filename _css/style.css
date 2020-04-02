@@ -96,7 +96,7 @@ a:hover{
 
 /* Landing Page: Nieuwsbrief Sectie*/
 .newsletter-container{
-	position: absolute;
+	position: relative;
 	height: 300px;
 	width: 100%;
 	text-align: center;
@@ -121,9 +121,25 @@ a:hover{
 }
 
 #nieuwsbrief{
+	background: none;
 	border: 1px solid white;
 	padding: 10px 30px;
+	font-family: "Poppins";
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: color 0.4s linear;
 }
+
+#nieuwsbrief:hover{
+	color: black;
+	background: white;
+}
+
+/* Landing Page: Over ons + Rondleiding Sectie*/
+
+
 
 
 
