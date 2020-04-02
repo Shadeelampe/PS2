@@ -219,6 +219,33 @@ a:hover{
 	padding-bottom: 60px;
 }
 
+/* Landing Page: Footer / Sociale Media Sectie */
+footer{
+	text-align: center;
+	height: 150px;
+	background: #0D0D0D;
+	margin-top: 190px;
+}
+
+.location-container p{
+	font-family: "Poppins-Light";
+	font-size: 10px;
+	color: grey;
+	padding-top: 50px;
+}
+
+footer .socialmedia-container ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .socialmedia-container ul li{
+	list-style: none;
+	padding: 10px;
+	color: #797A7E;
+	cursor: pointer;
+}
 
 
 
