@@ -248,6 +248,105 @@ footer .socialmedia-container ul li{
 }
 
 
+/* Bieren Page: Hero Image Sectie */
+.hero-image-onze-bieren{
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+	background: url(../content/unsplash/onzebieren.jpg) no-repeat center;
+	background-size: cover;
+}
+
+/* Bieren Page: Nieuwsbrief Sectie */
+.onzebieren-container{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.onzebieren-container .onze-bieren-text-newsletter{
+	padding-top: 50px;
+}
+
+.onzebieren-container .onze-bieren-text-newsletter h1{
+	font-family: "Poppins-Bold";
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.onzebieren-container .onze-bieren-text-newsletter p{
+	font-size: 17px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+
+/* Verscheidenheid van bieren in grid sectie */
+.onzebieren-container2{
+	display: flex;
+	height: 2000px;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.onzebieren-container3{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	width: 350px;
+	height: 500px;
+	background: white;
+	margin: 20px;
+}
+
+#ref5resh{
+	background: url(../content/bieren/Refresh Single.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#bruteforce{
+	background: url(../content/bieren/Brute Force Single.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#anykey{
+	background: url(../content/bieren/Any Key.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#ddos{
+	background: url(../content/bieren/beerindustry.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#wildcard{
+	background: url(../content/bieren/beerindustry.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#rsi{
+	background: url(../content/bieren/beerindustry.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+#firewire{
+	background: url(../content/bieren/beerindustry.jpg) no-repeat center;
+	background-size: 475px 300px;
+}
+
+
+
+.onzebieren-container2 .onzebieren-container3 .onze-bieren-text a{
+	font-size: 50px;
+	font-family: "Poppins-Bold";
+}
+
+
 
 
 
