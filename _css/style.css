@@ -261,8 +261,9 @@ footer .socialmedia-container ul li{
 .onzebieren-container{
 	position: relative;
 	height: 300px;
-	width: 100%;
+	width: 35%;
 	text-align: center;
+	margin: auto;
 	margin-top: 40px;
 }
 
@@ -282,11 +283,11 @@ footer .socialmedia-container ul li{
 	padding-bottom: 40px;
 }
 
-/* Verscheidenheid van bieren in grid sectie */
+/* Bieren Page: Verscheidenheid van bieren in grid sectie */
 .onzebieren-container2{
 	display: flex;
 	height: 2000px;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -301,7 +302,7 @@ footer .socialmedia-container ul li{
 	width: 350px;
 	height: 650px;
 	background: white;
-	margin: 20px;
+	margin: 0px 20px 0 20px;
 }
 
 #ref5resh{
