@@ -257,7 +257,7 @@ footer .socialmedia-container ul li{
 	background-size: cover;
 }
 
-/* Bieren Page: Nieuwsbrief Sectie */
+/* Bieren Page: Titel + Text Sectie */
 .onzebieren-container{
 	position: relative;
 	height: 300px;
@@ -306,46 +306,49 @@ footer .socialmedia-container ul li{
 
 #ref5resh{
 	background: url(../content/bieren/refresh.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
 
 #bruteforce{
 	background: url(../content/bieren/bruteforce.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
 
 #anykey{
 	background: url(../content/bieren/anykey.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
 
 #ddos{
 	background: url(../content/bieren/ddos.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
 
 #wildcard{
 	background: url(../content/bieren/wildcard.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
 
 #rsi{
 	background: url(../content/bieren/rsi.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
 
 #firewire{
 	background: url(../content/bieren/firewire.jpg) no-repeat center;
-	background-size: 475px 300px;
+	background-size: 350px 500px;
 }
-
 
 
 .onzebieren-container2 .onzebieren-container3 .onze-bieren-text a{
-	font-size: 50px;
+	font-size: 17px;
 	font-family: "Poppins-Bold";
 }
 
+.onzebieren-container2 .onzebieren-container3 .onze-bieren-text p{
+	font-size: 15px;
+	font-family: "Poppins";
+}
 
 
 
