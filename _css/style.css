@@ -299,7 +299,7 @@ footer .socialmedia-container ul li{
 	position: relative;
 	overflow: hidden;
 	width: 350px;
-	height: 500px;
+	height: 650px;
 	background: white;
 	margin: 20px;
 }
@@ -339,6 +339,11 @@ footer .socialmedia-container ul li{
 	background-size: 350px 500px;
 }
 
+.onzebieren-container3 .onze-bieren-text{
+	position: absolute;
+	bottom: 0;
+}
+
 
 .onzebieren-container2 .onzebieren-container3 .onze-bieren-text a{
 	font-size: 17px;
@@ -347,7 +352,7 @@ footer .socialmedia-container ul li{
 
 .onzebieren-container2 .onzebieren-container3 .onze-bieren-text p{
 	font-size: 15px;
-	font-family: "Poppins";
+	font-family: "Poppins-Light";
 }
 
 
