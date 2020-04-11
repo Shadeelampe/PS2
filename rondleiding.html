@@ -47,31 +47,33 @@
 			</div>	
 		</section>
 
-		<!-- Landing Page: Over ons + Rondleiding Sectie -->
-		<section class="container2">
-			<div class="container3" id="over-ons">
-				<section class="over-ons-text">
-					<a href="#">Over Ons</a>
-				</section>
-			</div>
-			<div class="container3" id="rondleiding">
-				<section class="rondleiding-text">
-					<a href="#">Rondleiding</a>
-				</section>
-			</div>
-		</section>
+		<!-- Rondleiding Page: Form Reserveren Sectie -->
+		<form action="#" method="POST">
+			<label for="name">Name</label>
+			<input type="text" name="name" id="name" />
+			
 
-		<!-- Landing Page: Contact Sectie -->
-		<div class="container4">
-			<div id="contact-image"></div>
-			<div class="contact-container">
-				<section class="contacttext-container">
-					<h1>Je favoriete </br> lokale brouwerij!</h1>
-					<a href="#">Neem contact op met ons</a> 
-				</section>
-			</div>
-		</div>
+			<label for="name"></label>
+			<input type="text" name="lastname" id="lastname" />
 
+			<label for="email">E-mail*</label>
+			<input type="email" name="email" id="email" />
+
+			<label for="phone">Telefoon*</label>
+			<input type="tel" name="phone" id="phone" />
+
+			<label for="date">Datum</label>
+			<input type="date" name="date" id="date" value="2020-04-11" min="2020-04-01" max="2020-07-31" />
+
+			<label for="amount">Aantal Personen</label>
+			<input type="number" name="amount" id="amount" min="1" max="10" step="1" value="1" />
+			
+			<label for="package1">Name</label>
+			<input type="checkbox" name="package1" value="man" /> €15,- Rondleiding + 3 Lokale Seizoen Kwartje Bier
+
+			<label for="package2">Name</label>
+			<input type="checkbox" name="package2" value="man" /> €22,- Rondleiding + 3 Lokale Seizoen Kwartje Bier + Kwartje T-Shirt
+		</form>
 
 		<!-- Landing Page: Footer / Sociale Media Sectie-->
 		<footer>
