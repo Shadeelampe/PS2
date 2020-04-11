@@ -431,6 +431,7 @@ footer .socialmedia-container ul li{
 	font-family: "Poppins-Bold";
 }
 
+/* Rondleiding Page: Hero Image Sectie */
 .hero-image-rondleiding{
 	position: relative;
 	height: 400px;
@@ -439,6 +440,7 @@ footer .socialmedia-container ul li{
 	background-size: cover;
 }
 
+/* Rondleiding Page: Titiel Sectie */
 .rondleiding-container{
 	position: relative;
 	height: 350px;
@@ -465,6 +467,53 @@ footer .socialmedia-container ul li{
 	padding-top: 15px;
 	padding-bottom: 40px;
 }
+
+/* Rondleiding Page: Form Reserveren Sectie */
+form{
+	width: 600px;
+	margin: auto;
+}
+
+label{
+	font-size: 17px;
+	font-family: "Poppins";
+	display: block;
+}
+
+input{
+	width: 600px;
+	height: 35px;
+}
+
+.form-name{
+	float: left;
+	margin-right: 20px;
+}
+
+.form-lastname{
+	float: left;
+	margin-top: 26px;
+}
+
+#name{
+	width: 290px;
+}
+
+#lastname{
+	width: 290px;
+}
+
+br{
+	clear: both
+}
+
+/*legend{
+	font-size: 10px;
+	font-family: "Poppins-Light";
+}*/
+
+
+
 
 
 
