@@ -541,9 +541,8 @@ section.button{
 	position: relative;
 	height: 400px;
 	overflow: hidden;
-	background: url(../content/unsplash/rondleiding.jpg) no-repeat center;
+	background: url(../content/unsplash/beerindustry.jpg) no-repeat center;
 	background-size: cover;
-}
 }
 
 
