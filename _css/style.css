@@ -359,6 +359,60 @@ footer .socialmedia-container ul li{
 	font-family: "Poppins-Light";
 }
 
+/* Bieren Page 2: Titel Sectie */
+.onzebieren2-container{
+	position: relative;
+	height: 200px;
+	width: 40%;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.onzebieren2-container .brouwerij-text-container{
+	padding-top: 50px;
+}
+
+.onzebieren2-container .brouwerij-text-container h1{
+	font-family: "Poppins-Bold";
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+/* Onze Bieren page 2: Terug naar onze bieren sectie */
+#terug{
+	margin-bottom: 100px;
+	margin-left: 110px;
+}
+
+/* Bieren Page 2: Informatie over bier */
+.bierinfo-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#bier-image-groot{
+	width: 600px;
+	height: 700px;
+	background: url(../content/bieren/refresh.jpg) no-repeat center;
+	background-size: 600px 850px;
+}
+
+#bier-image-text{
+	position: relative;
+	width: 600px;
+	height: 700px;
+	padding: 200px 105px;
+	background-color: #0A0A0A;
+}
+
+.bierinfo-text{
+	font-size: 16px;
+	padding: : auto;
+}
+
+
 /* Brouwerij page: Hero image sectie */
 .hero-image-brouwerij{
 	position: relative;
@@ -394,7 +448,7 @@ footer .socialmedia-container ul li{
 	padding-bottom: 40px;
 }
 
-/* Geschiedenis Sectie*/
+/* Brouwerij page: Geschiedenis Sectie*/
 .geschiedenis-image{
 	position: relative;
 	width: 100%;
@@ -403,7 +457,7 @@ footer .socialmedia-container ul li{
 	background-size: 60% 400px;
 }
 
-/* Naam Sectie*/
+/* Brouwerij page: Naam Sectie*/
 .naam-image{
 	position: relative;
 	width: 100%;
@@ -412,7 +466,7 @@ footer .socialmedia-container ul li{
 	background-size: 50% 500px;
 }
 
-/* Rondleiding Reserveren Sectie*/
+/* Brouwerij page: Rondleiding Reserveren Sectie*/
 .rondleiding-link-image{
 	position: relative;
 	height: 200px;
@@ -543,6 +597,126 @@ section.button{
 	overflow: hidden;
 	background: url(../content/unsplash/beerindustry.jpg) no-repeat center;
 	background-size: cover;
+}
+
+/* Contact Page: Locatie + Contactinformatie */
+.contactinformatie-container1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+	margin: 100px 0px;
+}
+
+.contactinformatie-container2{
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	height: 400px;
+}
+
+.contactinformatie-container2 .contactinformatie-container-text{
+	max-width: 700px;
+	height: 400px;
+	overflow: hidden;
+	align-items: center;
+	text-align: left;
+}
+
+.contactinformatie-container2 .contactinformatie-container-text h2{
+	font-family: "Poppins-Bold";
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.contactinformatie-container2 .contactinformatie-container-text h3{
+	font-family: "Poppins-Bold";
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.contactinformatie-container2 .contactinformatie-container-text p{
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+h3.socialmedia{
+	padding-top: 30px;
+}
+
+.contactinformatie-container-text ul li{
+	display: inline;
+	margin-right: 20px;
+	color: #797A7E;
+	cursor: pointer;
+}
+
+/* Contact Page: Openingstijden Sectie*/
+.openingstijden-container{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	background-color: #0A0A0A;
+}
+
+.openingstijden-container .openingstijden-text-newsletter{
+	padding-top: 65px;
+}
+
+
+.openingstijden-container .openingstijden-text-newsletter h1{
+	font-family: "Poppins-Bold";
+	font-size: 40px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+ul.openingstijden{
+	font-size: 15px;
+	margin-left: 575px;
+	text-align: left;
+}
+
+.openingstijden li{
+	list-style: none;
+}
+
+/* Contact page: Neem contact formulier sectie */
+.neemcontact-container{
+	position: relative;
+	height: 270px;
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.neemcontact-container .neemcontact-text-container{
+	padding-top: 50px;
+}
+
+.neemcontact-container .neemcontact-text-container h1{
+	font-family: "Poppins-Bold";
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.neemcontact-container .neemcontact-text-container p{
+	width: 37%;
+	margin: auto;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+section textarea{
+	width: 600px;
+	height: 125px;
 }
 
 
