@@ -521,6 +521,10 @@ section.inline{
 	display: inline-block;
 }
 
+legend{
+	text-transform: uppercase;
+}
+
 section.inline label{
 	font-size: 12px;
 	font-family: "Poppins-Light";
