@@ -138,6 +138,10 @@ a:hover{
 }
 
 /* Landing Page: Nieuwsbrief Modal Sectie */
+.modal{
+	display: none;
+}
+
 .bg-modal{
 	display: flex;
 	justify-content: center;
@@ -150,11 +154,58 @@ a:hover{
 }
 
 .modal-content{
+	position: relative;
 	width: 500px;
 	height: 300px;
 	background-color: white;
-	border-radius: 4px;
 }
+
+.close{
+	position: absolute;
+	color: black;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.modal-titel{
+	font-family: "Poppins-Bold";
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+	padding: 25px;
+}
+
+.modal-content .inputnieuwsbrief{
+	display: block;
+	width: 40%;
+	height: 35px;
+	margin: 15px 120px;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#nieuwsbrief-button{
+	margin: 15px 175px;
+	background: none;
+	border: 1px solid black;
+	padding: 10px 30px;
+	font-family: "Poppins";
+	font-size: 15px;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: color 0.4s linear;
+}
+
+#nieuwsbrief-button:hover{
+	color: white;
+	background: black;
+}
+
 
 /* Landing Page: Over ons + Rondleiding Sectie*/
 .container2{
