@@ -474,6 +474,7 @@ form{
 	margin: 0 auto;
 }
 
+
 .label label{
 	font-size: 15px;
 	font-family: "Poppins";
@@ -533,6 +534,16 @@ section.inline label{
 section.button{
 	text-align: center;
 	margin-top: 40px; 
+}
+
+/* Contact Page: Hero Image sectie */
+.hero-image-contact{
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+	background: url(../content/unsplash/rondleiding.jpg) no-repeat center;
+	background-size: cover;
+}
 }
 
 
