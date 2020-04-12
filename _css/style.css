@@ -471,18 +471,20 @@ footer .socialmedia-container ul li{
 /* Rondleiding Page: Form Reserveren Sectie */
 form{
 	width: 600px;
-	margin: auto;
+	margin: 0 auto;
 }
 
-label{
-	font-size: 17px;
+.label label{
+	font-size: 15px;
 	font-family: "Poppins";
 	display: block;
+	margin-bottom: 10px;
 }
 
-input{
+.label input{
 	width: 600px;
-	height: 35px;
+	height: 40px;
+	margin-bottom: 40px;
 }
 
 .form-name{
@@ -492,25 +494,42 @@ input{
 
 .form-lastname{
 	float: left;
-	margin-top: 26px;
+	margin-top: 23px;
+}
+
+#smallname{
+	font-size: 10px;
+	font-family: "Poppins-Light";
+	margin-bottom: 30px;
 }
 
 #name{
 	width: 290px;
+	margin-bottom: 10px;
 }
 
 #lastname{
 	width: 290px;
+	margin-bottom: 10px;
 }
 
 br{
 	clear: both
 }
 
-/*legend{
-	font-size: 10px;
+section.inline{
+	display: inline-block;
+}
+
+section.inline label{
+	font-size: 12px;
 	font-family: "Poppins-Light";
-}*/
+}
+
+section.button{
+	text-align: center;
+	margin-top: 40px; 
+}
 
 
 

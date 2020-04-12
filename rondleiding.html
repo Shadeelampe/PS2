@@ -50,20 +50,22 @@
 		<!-- Rondleiding Page: Form Reserveren Sectie -->
 		<form action="#" method="POST">
 
-				<section class="label">
+			<section class="label">
 			<div class="form-name">
-				<label for="name">Name</label>
+				<label for="name">Naam</label>
 				<input type="text" name="name" id="name" />
+				<label id="smallname" for="name">Voornaam</label>
 			</div>	
 
 			<div class="form-lastname">
 				<label for="name"></label>
 				<input type="text" name="lastname" id="lastname" />
+				<label id="smallname" for="lastname">Achternaam</label>
 			</div>
 			<br>
-				</section>
+			</section>
 
-				<section class="label">
+			<section class="label">
 				<label for="email">E-mail*</label>
 				<input type="email" name="email" id="email" />
 
@@ -75,15 +77,22 @@
 
 				<label for="amount">Aantal Personen</label>
 				<input type="number" name="amount" id="amount" min="1" max="10" step="1" value="1" />
-				
+			</section>
+
+			<section class="inline">
 				<legend>Prijs P.P</legend>
-			<div id="price">
-				<input type="checkbox" name="package1" id="price" value="€15"> 
-				<label for="package1">€15,- Rondleiding + 3 Lokale Seizoen Kwartje Bier</label>
-				<input type="checkbox" name="package2" id="price" value="€22" > 
-				<label for="package2">€22,- Rondleiding + 3 Lokale Seizoen Kwartje Bier + Kwartje T-Shirt</label>
-			</div>
-				</section>
+				<input type="checkbox" name="package1" value="€15"> 
+				<label for="package1"> € 15,- Rondleiding + 3  Lokale Seizoen Kwartje Bier </label>
+				<br>
+				<input type="checkbox" name="package2" value="€22">
+				<label for="package1"> € 22,-  Rondleiding + 3 Lokale Seizoen Kwartje Bier + Kwartje T-Shirt </label>
+			</section>	
+
+			<section class="button">
+			<button id="nieuwsbrief" type="button">Klik Hier</button>
+			</section>
+
+			
 		</form>
 
 		<!-- Landing Page: Footer / Sociale Media Sectie-->
