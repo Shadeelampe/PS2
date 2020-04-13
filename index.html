@@ -57,7 +57,7 @@
 			</div>	
 		</section>
 
-		<!-- Landing Page: Nieuwsbrief Modal Sectie -->
+		<!-- Landing Page: Nieuwsbrief Modal Sectie: Inschrijven -->
 		<div class="modal">
 			<div  class="bg-modal">
 				<div class="modal-content">
@@ -67,12 +67,22 @@
 					
 					<form action="#" method="POST">
 						<input type="text" placeholder="Name" 
-						class="inputnieuwsbrief">
+						class="inputnieuwsbrief" required="">
 						<input type="email" placeholder="E-mail" 
-						class="inputnieuwsbrief">
+						class="inputnieuwsbrief" required="">
 						<button id="nieuwsbrief-button" type="submit">Verstuur</button>
 					</form>
 
+				</div>
+			</div>
+		</div>
+
+		<!-- Landing Page: Nieuwsbrief Modal Sectie: Bedankt -->
+		<div class="modal-thankyou">
+			<div  class="bg-modal">
+				<div class="modal-content">
+					<div class="close">+</div>
+					<h1 class="modal-titel">Bedankt voor het inschrijven!</h1>
 				</div>
 			</div>
 		</div>
@@ -119,9 +129,18 @@
 
 
 		<script>
+		// Newsletter sign up:  Show / Hide:
+
+			$(document).ready(function(){
+				$("form").submit(function(e){
+	        		e.preventDefault();
+	    		});
+	    	});
+
 			$(document).ready(function(){
 				$("#nieuwsbrief").click(function(){
 					$(".modal").show();
+					$("form").submit(function() { return false; });
 				});
 			});
 
@@ -131,7 +150,18 @@
 				});
 			});
 
+		// Newsletter sign up:  Thank you:
+			$(document).ready(function(){
+				$("#nieuwsbrief-button").click(function(){
+					$(".modal-thankyou").show();
+				});
+			});
 
+			$(document).ready(function(){
+				$(".close").click(function(){
+					$(".modal-thankyou").hide();
+				});
+			});
 
 		</script>
 
